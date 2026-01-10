@@ -451,6 +451,10 @@ public class ArraySerializers {
     @Override
     public void write(MemoryBuffer buffer, int[] value) {
       if (fory.getBufferCallback() == null) {
+        if (fory.getConfig().compressIntArray()) {
+          writeInt32s(buffer, value);
+          return;
+        }
         int size = Math.multiplyExact(value.length, 4);
         buffer.writePrimitiveArrayWithSize(value, Platform.INT_ARRAY_OFFSET, size);
       } else {
@@ -477,12 +481,31 @@ public class ArraySerializers {
         }
         return values;
       }
-
+      if (fory.getConfig().compressIntArray()) {
+        return readInt32s(buffer);
+      }
       int size = buffer.readVarUint32Small7();
       int numElements = size / 4;
       int[] values = new int[numElements];
       if (size > 0) {
         buffer.readToUnsafe(values, Platform.INT_ARRAY_OFFSET, size);
+      }
+      return values;
+    }
+
+    private void writeInt32s(MemoryBuffer buffer, int[] value) {
+      buffer.writeVarUint32Small7(value.length);
+      for (int i : value) {
+        buffer.writeVarInt32(i);
+      }
+    }
+
+    public int[] readInt32s(MemoryBuffer buffer) {
+      int numElements = buffer.readVarUint32Small7();
+      int[] values = new int[numElements];
+
+      for (int i = 0; i < numElements; i++) {
+        values[i] = buffer.readVarInt32();
       }
       return values;
     }
@@ -558,7 +581,7 @@ public class ArraySerializers {
       }
     }
 
-    public long[] readInt64s(MemoryBuffer buffer, LongEncoding longEncoding) {
+    private long[] readInt64s(MemoryBuffer buffer, LongEncoding longEncoding) {
       int numElements = buffer.readVarUint32Small7();
       long[] values = new long[numElements];
 
