@@ -1,0 +1,21 @@
+java/fory-core/src/test/java/org/apache/fory/collection/selflist/SelfSingletonListTest.java
+  s_c80eab58f8d9b7::t_8302ff1fa5ef0a 291
+java/fory-core/src/test/java/org/apache/fory/collection/selflist/SelfCollectionSerializerFactory.java
+  s_c80eab58f8d9b7::t_8302ff1fa5ef0a 1-36
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.26-trip",
+  "base_commit_sha": "635174065860c1a89d79b42f8a4bfa54e5210d5d",
+  "prompts": {},
+  "sessions": {
+    "s_c80eab58f8d9b7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7dea1e3-c66f-45a7-90f8-d50633d88ef8",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
