@@ -1,0 +1,22 @@
+java/fory-core/src/test/java/org/apache/fory/collection/MultiParamCollectionTest.java
+  s_c80eab58f8d9b7::t_4dbef8e01a5c0e 1-2,6-15,19-20,22,25-30,48,51-52,72-73,76-77,80-81,84-85,88,145
+  s_c80eab58f8d9b7::t_f56f97c07f2031 3-5,16-18,21,23-24,31-47,49-50,53-71,74-75,78-79,82-83,86-87,89-144
+java/fory-core/src/main/java/org/apache/fory/meta/FieldTypes.java
+  s_c80eab58f8d9b7::t_f56f97c07f2031 275-281
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.26-trip",
+  "base_commit_sha": "557f490bd22c0db639d53969d1b89457f5e11f1f",
+  "prompts": {},
+  "sessions": {
+    "s_c80eab58f8d9b7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7dea1e3-c66f-45a7-90f8-d50633d88ef8",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
