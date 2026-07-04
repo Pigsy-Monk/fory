@@ -1,0 +1,27 @@
+java/docs/SelfRefListTest-StackOverflow-Analysis.md
+  s_c80eab58f8d9b7::t_6937e4cfa10f2f 315-316,331
+  s_c80eab58f8d9b7::t_f9d97621d9b3d1 94-100
+  s_c80eab58f8d9b7::t_08bcc9b99b3bae 5,7,12-20,30,33-45,50-92,101-118,126,128-129,158,160,193,195,282-284,287,289,291-294,297,299,301-304,306-314,318-320,322,327-328,341,345-349,353,430,432,440-443,447,452-459,494,499,501,503-505,509
+  s_c80eab58f8d9b7::t_2c07d337874ecf 134,138,140-141,144-147,149,151,153-155,159,163-166,168-173,175,178,181,183-188,190,192,194,196-198,200,202-221,224,226-233,235,237,239-249,252,254-259,261-280
+  s_c80eab58f8d9b7::t_49456dfec8765f 355-426
+  s_c80eab58f8d9b7::t_8f5f8dac6753e0 9,21-25,28
+  s_c80eab58f8d9b7::t_19acc8c9b869b3 48
+java/fory-core/src/main/java/org/apache/fory/reflect/TypeRef.java
+  s_c80eab58f8d9b7::t_1a9a848634db56 180-185,188
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.28-trip",
+  "base_commit_sha": "b5b4e22da2e96dfbfd9e5385d2464ea5da5b8832",
+  "prompts": {},
+  "sessions": {
+    "s_c80eab58f8d9b7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7dea1e3-c66f-45a7-90f8-d50633d88ef8",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
