@@ -181,9 +181,7 @@ public class TypeRef<T> {
       return typeArguments;
     }
     return Collections.singletonList(
-        resolveTypeVariables(
-            elementType.getType(),
-            explicitTypeVarRefs(rawType, typeArguments)));
+        resolveTypeVariables(elementType.getType(), explicitTypeVarRefs(rawType, typeArguments)));
   }
 
   private static List<TypeRef<?>> normalizeMapTypeArguments(
