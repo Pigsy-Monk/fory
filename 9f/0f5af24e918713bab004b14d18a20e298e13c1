@@ -1,0 +1,20 @@
+java/fory-core/src/main/java/org/apache/fory/reflect/TypeRef.java
+  s_c80eab58f8d9b7::t_29764cb6bba3c3 178-182
+  s_c80eab58f8d9b7::t_acb671f2cc4344 184
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.28-trip",
+  "base_commit_sha": "9f0f5af24e918713bab004b14d18a20e298e13c1",
+  "prompts": {},
+  "sessions": {
+    "s_c80eab58f8d9b7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "c7dea1e3-c66f-45a7-90f8-d50633d88ef8",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
