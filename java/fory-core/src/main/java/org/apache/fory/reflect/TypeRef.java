@@ -175,9 +175,14 @@ public class TypeRef<T> {
     if (!hasFullExplicitRawArgs(type, rawType, typeArguments)) {
       return typeArguments;
     }
+    TypeRef<?> elementType = rawIterableElementType(rawType);
+    // Avoid infinite recursion for self-referential collections.
+    if (elementType.getRawType() == rawType) {
+      return typeArguments;
+    }
     return Collections.singletonList(
         resolveTypeVariables(
-            rawIterableElementType(rawType).getType(),
+            elementType.getType(),
             explicitTypeVarRefs(rawType, typeArguments)));
   }
 
