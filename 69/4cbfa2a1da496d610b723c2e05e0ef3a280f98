@@ -1,0 +1,22 @@
+java/fory-core/src/test/java/org/apache/fory/collection/selflist/SingleItemListSerializer.java
+  s_9b05fada091bb6::t_886355ad77591f 28,31
+  s_9b05fada091bb6::t_2b071c3802aadb 69,93-103
+  s_9b05fada091bb6::t_d0301ca1000844 40-41
+  s_9b05fada091bb6::t_0e59c616ef2f65 67-68,80-81,83-86,90
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.35-trip",
+  "base_commit_sha": "694cbfa2a1da496d610b723c2e05e0ef3a280f98",
+  "prompts": {},
+  "sessions": {
+    "s_9b05fada091bb6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cdb187e-47a4-4e80-a71a-5dd1b160f163",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
