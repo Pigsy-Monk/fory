@@ -1,0 +1,22 @@
+java/fory-core/src/test/java/org/apache/fory/serializer/CrossInstanceCustomSerializerTest.java
+  s_9b05fada091bb6::t_b1357bfe78d71b 24
+  s_9b05fada091bb6::t_ffd60d50beb38f 1-23,25-75,77-107,109-162
+  s_9b05fada091bb6::t_297d99489a3de0 108
+  s_9b05fada091bb6::t_043f45e7232dc8 76
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.38-trip",
+  "base_commit_sha": "d9a016fdf2ee3db94c93c280898f6e8e0598fa29",
+  "prompts": {},
+  "sessions": {
+    "s_9b05fada091bb6": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "7cdb187e-47a4-4e80-a71a-5dd1b160f163",
+        "model": "qwen3.7-plus"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
