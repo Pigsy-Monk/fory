@@ -1,0 +1,21 @@
+java/fory-core/src/main/java/org/apache/fory/resolver/ClassResolver.java
+  s_a6d27e19050875::t_5e6c0f86fcb267 972-1009,1021-1025,1040-1046
+java/fory-core/src/test/java/org/apache/fory/meta/TypeDefRootKindSymmetricReproTest.java
+  s_a6d27e19050875::t_0543681a3cb064 131,142-147
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.43-trip",
+  "base_commit_sha": "0cd1a1a698a01374daa97ad1231e52dab2ce3ac6",
+  "prompts": {},
+  "sessions": {
+    "s_a6d27e19050875": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7243c2d-4c39-4ca0-9d4f-1edb563083fe",
+        "model": "ep-07p4u7vn"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
