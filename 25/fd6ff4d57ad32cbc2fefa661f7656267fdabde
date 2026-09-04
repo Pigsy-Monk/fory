@@ -1,0 +1,19 @@
+java/fory-core/src/test/java/org/apache/fory/meta/TypeDefRootKindSymmetricReproTest.java
+  s_a6d27e19050875::t_84b6852cde2f21 1-171
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.43-trip",
+  "base_commit_sha": "25fd6ff4d57ad32cbc2fefa661f7656267fdabde",
+  "prompts": {},
+  "sessions": {
+    "s_a6d27e19050875": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7243c2d-4c39-4ca0-9d4f-1edb563083fe",
+        "model": "ep-07p4u7vn"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
