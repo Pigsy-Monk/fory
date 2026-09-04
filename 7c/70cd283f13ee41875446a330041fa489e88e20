@@ -1,0 +1,24 @@
+java/fory-core/src/test/java/org/apache/fory/meta/TypeDefRootKindSymmetricReproTest.java
+  s_a6d27e19050875::t_0543681a3cb064 131-147
+  s_a6d27e19050875::t_aa5e68f6f552ba 35-53
+  s_a6d27e19050875::t_f4adbbd877eda6 91
+  s_a6d27e19050875::t_b021bc10cb9584 72
+java/fory-core/src/main/java/org/apache/fory/resolver/ClassResolver.java
+  s_a6d27e19050875::t_5e6c0f86fcb267 972-1009,1021-1025,1040-1046
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.43-trip",
+  "base_commit_sha": "7c70cd283f13ee41875446a330041fa489e88e20",
+  "prompts": {},
+  "sessions": {
+    "s_a6d27e19050875": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "e7243c2d-4c39-4ca0-9d4f-1edb563083fe",
+        "model": "ep-07p4u7vn"
+      },
+      "human_author": null
+    }
+  }
+}
