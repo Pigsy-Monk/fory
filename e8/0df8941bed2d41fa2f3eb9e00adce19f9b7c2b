@@ -1,0 +1,23 @@
+java/fory-core/src/main/java/org/apache/fory/resolver/ClassResolver.java
+  s_0618c97162984d::t_86d663ee2cf582 250-252,254
+  s_0618c97162984d::t_039ee3e958e45f 978
+  s_0618c97162984d::t_e3cea5645baa9a 979,981-982,984
+  s_0618c97162984d::t_95fcd837ee2caf 253
+  s_0618c97162984d::t_f8db2f6b4ff5a7 980
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.4.43-trip",
+  "base_commit_sha": "e80df8941bed2d41fa2f3eb9e00adce19f9b7c2b",
+  "prompts": {},
+  "sessions": {
+    "s_0618c97162984d": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "d36e7da9-f1a5-4f12-b71c-fe9cdf51c939",
+        "model": "arn:aws:bedrock:eu-central-1:456197019624:application-inference-profile/804snkwjlymx"
+      },
+      "human_author": "zwsong <zwsong@trip.com>"
+    }
+  }
+}
